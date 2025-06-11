@@ -12,11 +12,11 @@ A simple Bash script that automates basic network scans; including host discorve
 
 ## Usage
 
-# Give execution permission (only once needed)
+### Give execution permission (only once needed)
 ```bash
 chmod +x scan_script.sh
 ```
 
-# Run the script
+### Run the script
 ```bash
 ./scan_script.sh
