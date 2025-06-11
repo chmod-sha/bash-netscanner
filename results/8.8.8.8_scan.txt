@@ -1,0 +1,48 @@
+Running Host Discrovery (Ping) Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:10 PKT
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.00087s latency).
+Nmap done: 1 IP address (1 host up) scanned in 0.06 seconds
+
+Running Full Port Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:10 PKT
+Stats: 0:03:06 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 63.99% done; ETC: 00:14 (0:01:45 remaining)
+Stats: 0:05:41 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 84.70% done; ETC: 00:16 (0:01:02 remaining)
+Stats: 0:05:42 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 84.83% done; ETC: 00:16 (0:01:01 remaining)
+Stats: 0:05:43 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 84.97% done; ETC: 00:16 (0:01:01 remaining)
+Stats: 0:05:46 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 85.35% done; ETC: 00:16 (0:01:00 remaining)
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.00030s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+443/tcp open  https
+853/tcp open  domain-s
+
+Nmap done: 1 IP address (1 host up) scanned in 457.20 seconds
+
+Running OS Detection and Service Version Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:17 PKT
+Stats: 0:00:05 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 55.00% done; ETC: 00:17 (0:00:04 remaining)
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.010s latency).
+All 1000 scanned ports on dns.google (8.8.8.8) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DFL-700 firewall (89%), HP Officejet Pro 8500 printer (89%), IBM i 7.4 (89%), ReactOS 0.3.7 (89%), Sanyo PLC-XU88 digital video projector (89%), Sonus GSX9000 VoIP proxy (88%), Asus WL-500gP wireless broadband router (88%), Microsoft Windows 2000 (88%), Microsoft Windows Server 2003 Enterprise Edition SP2 (88%), Microsoft Windows Server 2003 SP2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.20 ms 192.168.174.2
+2   0.22 ms dns.google (8.8.8.8)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 74.85 seconds
