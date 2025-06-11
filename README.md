@@ -13,4 +13,4 @@ A simple Bash script that automates basic network scans; including host discorve
 ## Usage
 
 ```bash
-bash scan.sh
+./scan_script.sh
