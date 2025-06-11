@@ -1,0 +1,13 @@
+Running Host Discrovery (Ping) Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:20 PKT
+Nmap done: 0 IP addresses (0 hosts up) scanned in 10.35 seconds
+
+Running Full Port Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:20 PKT
+Nmap done: 0 IP addresses (0 hosts up) scanned in 5.11 seconds
+
+Running OS Detection and Service Version Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:20 PKT
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 0 undergoing Script Pre-Scan
+NSE Timing: About 0.00% done
+Nmap done: 0 IP addresses (0 hosts up) scanned in 20.66 seconds

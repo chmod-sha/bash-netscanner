@@ -1,0 +1,204 @@
+Running Host Discrovery (Ping) Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:03 PKT
+Nmap scan report for google.com (192.178.24.174)
+Host is up (0.00068s latency).
+Other addresses for google.com (not scanned): 2a00:1450:4018:803::200e
+rDNS record for 192.178.24.174: mct04s02-in-f14.1e100.net
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
+
+Running Full Port Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:03 PKT
+Stats: 0:00:03 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 0.65% done
+Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 2.81% done; ETC: 00:06 (0:03:28 remaining)
+Nmap scan report for google.com (192.178.24.174)
+Host is up (0.00028s latency).
+Other addresses for google.com (not scanned): 2a00:1450:4018:803::200e
+rDNS record for 192.178.24.174: mct04s02-in-f14.1e100.net
+Not shown: 65533 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 151.63 seconds
+
+Running OS Detection and Service Version Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 00:05 PKT
+Stats: 0:00:28 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 50.85% done; ETC: 00:06 (0:00:12 remaining)
+Stats: 0:00:54 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 62.80% done; ETC: 00:07 (0:00:23 remaining)
+Stats: 0:00:55 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 63.40% done; ETC: 00:07 (0:00:23 remaining)
+Stats: 0:00:59 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 65.00% done; ETC: 00:07 (0:00:23 remaining)
+Stats: 0:01:06 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 85.60% done; ETC: 00:06 (0:00:08 remaining)
+Stats: 0:01:32 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Stats: 0:01:39 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Stats: 0:01:40 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Nmap scan report for google.com (192.178.24.174)
+Host is up (0.0073s latency).
+rDNS record for 192.178.24.174: mct04s02-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      gws
+|_http-title: Did not follow redirect to http://www.google.com/
+|_http-server-header: gws
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Date: Wed, 11 Jun 2025 19:07:02 GMT
+|     Expires: -1
+|     Cache-Control: private, max-age=0
+|     Content-Type: text/html; charset=ISO-8859-1
+|     Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-ftsaS5ZDF_T5ICMZbGV8Uw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+|     P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+|     Server: gws
+|     X-XSS-Protection: 0
+|     X-Frame-Options: SAMEORIGIN
+|     Set-Cookie: AEC=AVh_V2hv2BbWGNmgiTnZ7zZWbHAX3YQLGZVQbQyljsp4_vRg3h5Zu6Caimg; expires=Mon, 08-Dec-2025 19:07:02 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+|     Set-Cookie: NID=524=rhO2sqMqoqq_4omwOnt4p5Wylrl9mRAXZTAd-dpHyfuX9OZSd3kBw6bOyegR19oJoA9kN1OlZAo9TUpcxJ3gLStXzQjz4IoAw9QrAfGAtTk2hNhm_3K88oCcv5GojnhKO0j3Nzy0qOQDwyN1gxAemAK83alAcqtLcVjpCUfjyzfb20FWoT9w
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Content-Length: 1592
+|     Date: Wed, 11 Jun 2025 19:07:03 GMT
+|     <!DOCTYPE html>
+|     <html lang=en>
+|     <meta charset=utf-8>
+|     <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+|     <title>Error 405 (Method Not Allowed)!!1</title>
+|     <style>
+|_    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding
+443/tcp open  ssl/https gws
+|_http-server-header: gws
+| tls-alpn: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+|_http-title: Did not follow redirect to https://www.google.com/
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=*.google.com
+| Subject Alternative Name: DNS:*.google.com, DNS:*.appengine.google.com, DNS:*.bdn.dev, DNS:*.origin-test.bdn.dev, DNS:*.cloud.google.com, DNS:*.crowdsource.google.com, DNS:*.datacompute.google.com, DNS:*.google.ca, DNS:*.google.cl, DNS:*.google.co.in, DNS:*.google.co.jp, DNS:*.google.co.uk, DNS:*.google.com.ar, DNS:*.google.com.au, DNS:*.google.com.br, DNS:*.google.com.co, DNS:*.google.com.mx, DNS:*.google.com.tr, DNS:*.google.com.vn, DNS:*.google.de, DNS:*.google.es, DNS:*.google.fr, DNS:*.google.hu, DNS:*.google.it, DNS:*.google.nl, DNS:*.google.pl, DNS:*.google.pt, DNS:*.googleapis.cn, DNS:*.googlevideo.com, DNS:*.gstatic.cn, DNS:*.gstatic-cn.com, DNS:googlecnapps.cn, DNS:*.googlecnapps.cn, DNS:googleapps-cn.com, DNS:*.googleapps-cn.com, DNS:gkecnapps.cn, DNS:*.gkecnapps.cn, DNS:googledownloads.cn, DNS:*.googledownloads.cn, DNS:recaptcha.net.cn, DNS:*.recaptcha.net.cn, DNS:recaptcha-cn.net, DNS:*.recaptcha-cn.net, DNS:widevine.cn, DNS:*.widevine.cn, DNS:ampproject.org.cn, DNS:*.ampproject.org.cn, DNS:ampproject.net.cn, DNS:*.ampproject.net.cn, DNS:google-analytics-cn.com, DNS:*.google-analytics-cn.com, DNS:googleadservices-cn.com, DNS:*.googleadservices-cn.com, DNS:googlevads-cn.com, DNS:*.googlevads-cn.com, DNS:googleapis-cn.com, DNS:*.googleapis-cn.com, DNS:googleoptimize-cn.com, DNS:*.googleoptimize-cn.com, DNS:doubleclick-cn.net, DNS:*.doubleclick-cn.net, DNS:*.fls.doubleclick-cn.net, DNS:*.g.doubleclick-cn.net, DNS:doubleclick.cn, DNS:*.doubleclick.cn, DNS:*.fls.doubleclick.cn, DNS:*.g.doubleclick.cn, DNS:dartsearch-cn.net, DNS:*.dartsearch-cn.net, DNS:googletraveladservices-cn.com, DNS:*.googletraveladservices-cn.com, DNS:googletagservices-cn.com, DNS:*.googletagservices-cn.com, DNS:googletagmanager-cn.com, DNS:*.googletagmanager-cn.com, DNS:googlesyndication-cn.com, DNS:*.googlesyndication-cn.com, DNS:*.safeframe.googlesyndication-cn.com, DNS:app-measurement-cn.com, DNS:*.app-measurement-cn.com, DNS:gvt1-cn.com, DNS:*.gvt1-cn.com, DNS:gvt2-cn.com, DNS:*.gvt2-cn.com, DNS:2mdn-cn.net, DNS:*.2mdn-cn.net, DNS:googleflights-cn.net, DNS:*.googleflights-cn.net, DNS:admob-cn.com, DNS:*.admob-cn.com, DNS:googlesandbox-cn.com, DNS:*.googlesandbox-cn.com, DNS:*.safenup.googlesandbox-cn.com, DNS:*.gstatic.com, DNS:*.metric.gstatic.com, DNS:*.gvt1.com, DNS:*.gcpcdn.gvt1.com, DNS:*.gvt2.com, DNS:*.gcp.gvt2.com, DNS:*.url.google.com, DNS:*.youtube-nocookie.com, DNS:*.ytimg.com, DNS:ai.android, DNS:android.com, DNS:*.android.com, DNS:*.flash.android.com, DNS:g.cn, DNS:*.g.cn, DNS:g.co, DNS:*.g.co, DNS:goo.gl, DNS:www.goo.gl, DNS:google-analytics.com, DNS:*.google-analytics.com, DNS:google.com, DNS:googlecommerce.com, DNS:*.googlecommerce.com, DNS:ggpht.cn, DNS:*.ggpht.cn, DNS:urchin.com, DNS:*.urchin.com, DNS:youtu.be, DNS:youtube.com, DNS:*.youtube.com, DNS:music.youtube.com, DNS:*.music.youtube.com, DNS:youtubeeducation.com, DNS:*.youtubeeducation.com, DNS:youtubekids.com, DNS:*.youtubekids.com, DNS:yt.be, DNS:*.yt.be, DNS:android.clients.google.com, DNS:*.android.google.cn, DNS:*.chrome.google.cn, DNS:*.developers.google.cn, DNS:*.aistudio.google.com
+| Not valid before: 2025-05-12T08:42:58
+|_Not valid after:  2025-08-04T08:42:57
+| tls-nextprotoneg: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Date: Wed, 11 Jun 2025 19:07:11 GMT
+|     Expires: -1
+|     Cache-Control: private, max-age=0
+|     Content-Type: text/html; charset=ISO-8859-1
+|     Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-HY_vhecttm4cfQ6CgEioiA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+|     Accept-CH: Sec-CH-Prefers-Color-Scheme
+|     P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+|     Server: gws
+|     X-XSS-Protection: 0
+|     X-Frame-Options: SAMEORIGIN
+|     Set-Cookie: AEC=AVh_V2hotYT76vnwqgL3HeyflXsctaTBahiIfAAF5QhM8qfcj3xI9XszLw; expires=Mon, 08-Dec-2025 19:07:11 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+|     Set-Cookie: NID=524=SYPOb7JNmTcDsXIGjnoXElpsxRpsYIM6IXnCtdK4N0XQ3P8AybxHDlsu5JdR-usgnFLS9rbfIpYz7TjwU-I6MfnQKTTLYh2aEMB07FIusGkTLY6ZKUKieJEAixgT_GEz9uOa6wY0djMpP
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Content-Length: 1592
+|     Date: Wed, 11 Jun 2025 19:07:11 GMT
+|     Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+|     <!DOCTYPE html>
+|     <html lang=en>
+|     <meta charset=utf-8>
+|     <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+|     <title>Error 405 (Method Not Allowed)!!1</title>
+|     <style>
+|_    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=6/12%Time=6849D3D5%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,108C,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Wed,\x2011\x20Jun\x2020
+SF:25\x2019:07:02\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20private,\x
+SF:20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1\r\nCon
+SF:tent-Security-Policy-Report-Only:\x20object-src\x20'none';base-uri\x20'
+SF:self';script-src\x20'nonce-ftsaS5ZDF_T5ICMZbGV8Uw'\x20'strict-dynamic'\
+SF:x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:\x20htt
+SF:p:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r\nP3P:\
+SF:x20CP=\"This\x20is\x20not\x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phel
+SF:p\x20for\x20more\x20info\.\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x20
+SF:0\r\nX-Frame-Options:\x20SAMEORIGIN\r\nSet-Cookie:\x20AEC=AVh_V2hv2BbWG
+SF:NmgiTnZ7zZWbHAX3YQLGZVQbQyljsp4_vRg3h5Zu6Caimg;\x20expires=Mon,\x2008-D
+SF:ec-2025\x2019:07:02\x20GMT;\x20path=/;\x20domain=\.google\.com;\x20Secu
+SF:re;\x20HttpOnly;\x20SameSite=lax\r\nSet-Cookie:\x20NID=524=rhO2sqMqoqq_
+SF:4omwOnt4p5Wylrl9mRAXZTAd-dpHyfuX9OZSd3kBw6bOyegR19oJoA9kN1OlZAo9TUpcxJ3
+SF:gLStXzQjz4IoAw9QrAfGAtTk2hNhm_3K88oCcv5GojnhKO0j3Nzy0qOQDwyN1gxAemAK83a
+SF:lAcqtLcVjpCUfjyzfb20FWoT9w")%r(HTTPOptions,6DC,"HTTP/1\.0\x20405\x20Met
+SF:hod\x20Not\x20Allowed\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r
+SF:\nReferrer-Policy:\x20no-referrer\r\nContent-Length:\x201592\r\nDate:\x
+SF:20Wed,\x2011\x20Jun\x202025\x2019:07:03\x20GMT\r\n\r\n<!DOCTYPE\x20html
+SF:>\n<html\x20lang=en>\n\x20\x20<meta\x20charset=utf-8>\n\x20\x20<meta\x2
+SF:0name=viewport\x20content=\"initial-scale=1,\x20minimum-scale=1,\x20wid
+SF:th=device-width\">\n\x20\x20<title>Error\x20405\x20\(Method\x20Not\x20A
+SF:llowed\)!!1</title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{margin:0;paddi
+SF:ng:0}html,code{font:15px/22px\x20arial,sans-serif}html{background:#fff;
+SF:color:#222;padding:15px}body{margin:7%\x20auto\x200;max-width:390px;min
+SF:-height:180px;padding:30px\x200\x2015px}\*\x20>\x20body{background:url\
+SF:(//www\.google\.com/images/errors/robot\.png\)\x20100%\x205px\x20no-rep
+SF:eat;padding-right:205px}p{margin:11px\x200\x2022px;overflow:hidden}ins{
+SF:color:#777;text-decoration:none}a\x20img{border:0}@media\x20screen\x20a
+SF:nd\x20\(max-width:772px\){body{background:none;margin-top:0;max-width:n
+SF:one;padding-right:0}}#logo{background:url\(//www\.google\.com/images/br
+SF:anding");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=6/12%Time=6849D3DD%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,15B8,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Wed,\x2011\x20Ju
+SF:n\x202025\x2019:07:11\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20pri
+SF:vate,\x20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1
+SF:\r\nContent-Security-Policy-Report-Only:\x20object-src\x20'none';base-u
+SF:ri\x20'self';script-src\x20'nonce-HY_vhecttm4cfQ6CgEioiA'\x20'strict-dy
+SF:namic'\x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:
+SF:\x20http:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r
+SF:\nAccept-CH:\x20Sec-CH-Prefers-Color-Scheme\r\nP3P:\x20CP=\"This\x20is\
+SF:x20not\x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phelp\x20for\x20more\x2
+SF:0info\.\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x200\r\nX-Frame-Option
+SF:s:\x20SAMEORIGIN\r\nSet-Cookie:\x20AEC=AVh_V2hotYT76vnwqgL3HeyflXsctaTB
+SF:ahiIfAAF5QhM8qfcj3xI9XszLw;\x20expires=Mon,\x2008-Dec-2025\x2019:07:11\
+SF:x20GMT;\x20path=/;\x20domain=\.google\.com;\x20Secure;\x20HttpOnly;\x20
+SF:SameSite=lax\r\nSet-Cookie:\x20NID=524=SYPOb7JNmTcDsXIGjnoXElpsxRpsYIM6
+SF:IXnCtdK4N0XQ3P8AybxHDlsu5JdR-usgnFLS9rbfIpYz7TjwU-I6MfnQKTTLYh2aEMB07FI
+SF:usGkTLY6ZKUKieJEAixgT_GEz9uOa6wY0djMpP")%r(HTTPOptions,715,"HTTP/1\.0\x
+SF:20405\x20Method\x20Not\x20Allowed\r\nContent-Type:\x20text/html;\x20cha
+SF:rset=UTF-8\r\nReferrer-Policy:\x20no-referrer\r\nContent-Length:\x20159
+SF:2\r\nDate:\x20Wed,\x2011\x20Jun\x202025\x2019:07:11\x20GMT\r\nAlt-Svc:\
+SF:x20h3=\":443\";\x20ma=2592000,h3-29=\":443\";\x20ma=2592000\r\n\r\n<!DO
+SF:CTYPE\x20html>\n<html\x20lang=en>\n\x20\x20<meta\x20charset=utf-8>\n\x2
+SF:0\x20<meta\x20name=viewport\x20content=\"initial-scale=1,\x20minimum-sc
+SF:ale=1,\x20width=device-width\">\n\x20\x20<title>Error\x20405\x20\(Metho
+SF:d\x20Not\x20Allowed\)!!1</title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{m
+SF:argin:0;padding:0}html,code{font:15px/22px\x20arial,sans-serif}html{bac
+SF:kground:#fff;color:#222;padding:15px}body{margin:7%\x20auto\x200;max-wi
+SF:dth:390px;min-height:180px;padding:30px\x200\x2015px}\*\x20>\x20body{ba
+SF:ckground:url\(//www\.google\.com/images/errors/robot\.png\)\x20100%\x20
+SF:5px\x20no-repeat;padding-right:205px}p{margin:11px\x200\x2022px;overflo
+SF:w:hidden}ins{color:#777;text-decoration:none}a\x20img{border:0}@media\x
+SF:20screen\x20and\x20\(max-width:772px\){body{background:none;margin-top:
+SF:0;max-width:none;padding-right");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Actiontec MI424WR-GEN3I WAP (97%), Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (97%), DD-WRT v24-sp2 (Linux 2.4.37) (96%), VMware Player virtual NAT device (96%), Linux 3.2 (95%), Microsoft Windows XP SP3 (95%), Linux 4.4 (92%), BlueArc Titan 2100 NAS device (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.174.2
+2   0.16 ms mct04s02-in-f14.1e100.net (192.178.24.174)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 184.84 seconds
