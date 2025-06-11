@@ -15,4 +15,3 @@ nmap -p- $target | tee -a $filename
 echo -e "\nRunning OS Detection and Service Version Scan..." | tee -a $filename
 nmap -A $target | tee -a $filename
 echo -e "\nScan complete. Results saved to: $filename"
-
